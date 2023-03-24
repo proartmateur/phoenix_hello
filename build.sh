@@ -2,6 +2,9 @@
 # exit on error
 set -o errexit
 
+echo "Elixit v:"
+echo elixir --version
+
 mix setup
 
 # Initial setup
